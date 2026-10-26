@@ -28,7 +28,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 16px;
-    background: linear-gradient(135deg, var(--bg), var(--bg-light));
+    background: linear-gradient(135deg, var(--bg));
     color: var(--text);
     font-family: var(--font-main);
     overflow-wrap: anywhere;
@@ -147,7 +147,7 @@ section>h2 {
     justify-content: center;
     font-size: 5rem;
     font-family: var(--font-title);
-    background: linear-gradient(135deg, var(--accent), var(--surface));
+    background: linear-gradient(135deg, var(--accent));
 }
 
 .card {
@@ -159,7 +159,7 @@ section>h2 {
     position: relative;
     transition: transform 0.3s, box-shadow 0.3s;
     color: var(--text-dark);
-    animation: rise 0.6s backwards; 
+    animation: rise 0.6s backwards;
 }
 
 .card:nth-child(2) {
@@ -289,7 +289,7 @@ section>h2 {
     justify-content: center;
     font-size: 5rem;
     font-family: var(--font-title);
-    background: linear-gradient(135deg, var(--accent), var(--bg-light));
+    background: linear-gradient(135deg, var(--accent));
     color: var(--text);
 }
 
